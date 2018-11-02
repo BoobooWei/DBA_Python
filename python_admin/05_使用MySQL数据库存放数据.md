@@ -13,13 +13,13 @@ yum install -y mariadb-server
 systemctl start mariadb
 ```
 
-##2. 创建数据库myweb
+## 2. 创建数据库myweb
 
 ```bash
 mysql -e "create database myweb"
 ```
 
-##3 添加应用程序授权
+## 3. 添加应用程序授权
 
 修改root密码，应用程序将使用本地root用户的权限。如果你熟悉数据库，可以将新建一个小权限的数据库用户。
 
@@ -27,7 +27,7 @@ mysql -e "create database myweb"
 mysqladmin -uroot password 'myweb'
 ```
 
-## 4 新建用户表
+## 4. 新建用户表
 
 用户表用来保存系统登陆用户信息，包括用户名和密码。
 
@@ -35,7 +35,7 @@ mysqladmin -uroot password 'myweb'
 mysql -uroot -pmyweb myweb -e "create table AdminUser (id int primary key auto_increment, name varchar(255) not null ,password varchar(255) not null)"
 ```
 
-## 5 插入用户和密码信息
+## 5. 插入用户和密码信息
 
 手动插入两条记录
 
@@ -43,13 +43,13 @@ mysql -uroot -pmyweb myweb -e "create table AdminUser (id int primary key auto_i
 mysql -uroot -pmyweb myweb -e "insert into AdminUser values (null,'zyadmin','123'),(null,'booboo','123')"
 ```
 
-## 6 查看表中的信息
+## 6. 查看表中的信息
 
 ```bash
 mysql -uroot -pmyweb myweb -e "select * from AdminUser"
 ```
 
-## 7 操作指南
+## 7. 操作指南
 
 ```bash
 [root@am_01 ~]# yum install -y mariadb-server
@@ -76,7 +76,7 @@ mysql -uroot -pmyweb myweb -e "select * from AdminUser"
 +----+---------+----------+
 ```
 
-## 8 准备好应用连接数据库的信息
+## 8. 准备好应用连接数据库的信息
 
 * 用户名： `root`
 * 密码： `myweb`
