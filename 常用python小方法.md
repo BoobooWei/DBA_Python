@@ -57,3 +57,9 @@ In [13]: print re.sub(r'(</?(div|p)>|^$)','',a_string)
 
 ```
 
+
+## 生产依赖包
+
+```bash
+pip freeze > requirements.txt
+```
