@@ -54,3 +54,14 @@ print('\n'.join(b))
 ```bash
 pip freeze > requirements.txt
 ```
+
+## 根据\t打印表格
+
+```python
+a = "user\tpassword\temail\nbooboo\t123\tere@hotmail.com\n"
+b = a.expandtabs(20)
+print(b)
+
+user                password            email
+booboo              123                 ere@hotmail.com
+```
