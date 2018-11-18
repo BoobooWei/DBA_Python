@@ -5,56 +5,47 @@
 ## 去除网页标签
 
 ```python
-In [11]: a_string="""
-    ...: <div>
-    ...:     
-    ...:     <p>【背景】 客户采购我司CMS服务，请协调对接人</p>
-    ...:     
-    ...:     
-    ...:     <p>【希望驻云做什么】 客户采购我司CMS服务，请协调对接人</p>
-    ...:     
-    ...:     
-    ...:     <p>【期望完成时间】 2018/10/31 12:00</p>
-    ...:     
-    ...:     
-    ...:       <p>【是否需要上门】 否</p>
-    ...:       
-    ...:     
-    ...: 
-    ...:     
-    ...:       <p>【联系人】 刘茂鹏</p>
-    ...:     
-    ...:     
-    ...:       <p>【联系方式】 18201729403</p>
-    ...:     
-    ...: </div>"""
+import re
+import sys
 
-In [12]: re.sub(r'</?(div|p)>','',a_string)
-Out[12]: '\n\n    \n    \xe3\x80\x90\xe8\x83\x8c\xe6\x99\xaf\xe3\x80\x91 \xe5\xae\xa2\xe6\x88\xb7\xe9\x87\x87\xe8\xb4\xad\xe6\x88\x91\xe5\x8f\xb8CMS\xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x8c\xe8\xaf\xb7\xe5\x8d\x8f\xe8\xb0\x83\xe5\xaf\xb9\xe6\x8e\xa5\xe4\xba\xba\n    \n    \n    \xe3\x80\x90\xe5\xb8\x8c\xe6\x9c\x9b\xe9\xa9\xbb\xe4\xba\x91\xe5\x81\x9a\xe4\xbb\x80\xe4\xb9\x88\xe3\x80\x91 \xe5\xae\xa2\xe6\x88\xb7\xe9\x87\x87\xe8\xb4\xad\xe6\x88\x91\xe5\x8f\xb8CMS\xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x8c\xe8\xaf\xb7\xe5\x8d\x8f\xe8\xb0\x83\xe5\xaf\xb9\xe6\x8e\xa5\xe4\xba\xba\n    \n    \n    \xe3\x80\x90\xe6\x9c\x9f\xe6\x9c\x9b\xe5\xae\x8c\xe6\x88\x90\xe6\x97\xb6\xe9\x97\xb4\xe3\x80\x91 2018/10/31 12:00\n    \n    \n      \xe3\x80\x90\xe6\x98\xaf\xe5\x90\xa6\xe9\x9c\x80\xe8\xa6\x81\xe4\xb8\x8a\xe9\x97\xa8\xe3\x80\x91 \xe5\x90\xa6\n      \n    \n\n    \n      \xe3\x80\x90\xe8\x81\x94\xe7\xb3\xbb\xe4\xba\xba\xe3\x80\x91 \xe5\x88\x98\xe8\x8c\x82\xe9\xb9\x8f\n    \n    \n      \xe3\x80\x90\xe8\x81\x94\xe7\xb3\xbb\xe6\x96\xb9\xe5\xbc\x8f\xe3\x80\x91 18201729403\n    \n'
-
-In [13]: print re.sub(r'(</?(div|p)>|^$)','',a_string)
-
-
+a_string="""
+<div>
     
-    【背景】 客户采购我司CMS服务，请协调对接人
+    <p>【背景】 客户采购我司CMS服务，请协调对接人</p>
     
     
-    【希望驻云做什么】 客户采购我司CMS服务，请协调对接人
+    <p>【希望驻云做什么】 客户采购我司CMS服务，请协调对接人</p>
     
     
-    【期望完成时间】 2018/10/31 12:00
+    <p>【期望完成时间】 2018/10/31 12:00</p>
     
     
-      【是否需要上门】 否
+      <p>【是否需要上门】 否</p>
       
     
 
     
-      【联系人】 刘茂鹏
+      <p>【联系人】 刘茂鹏</p>
     
     
-      【联系方式】 18201729403
+      <p>【联系方式】 1</p>
+    
+</div>"""
 
+a = re.sub(r'</?(div|p)>','',a_string)
+b = []
+for i in a.split('\n'):
+    if i.strip() != '':
+        b.append(i.strip())
+print('\n'.join(b))
+
+
+背景】 客户采购我司CMS服务，请协调对接人
+【希望驻云做什么】 客户采购我司CMS服务，请协调对接人
+【期望完成时间】 2018/10/31 12:00
+【是否需要上门】 否
+【联系人】 刘茂鹏
+【联系方式】 1
 ```
 
 
