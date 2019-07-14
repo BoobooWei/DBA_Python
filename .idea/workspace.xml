@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python_base/04_Python的控制和函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_base/05_Python的文件操作.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_base/07_Python装饰器.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/03_Python的基本运算.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_base/03_Python的基本运算.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="427">
+                <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,14 +60,14 @@
         <option value="$PROJECT_DIR$/python_base/02_Python的基本数据类型.md" />
         <option value="$PROJECT_DIR$/python_base/03_Python的基本运算.md" />
         <option value="$PROJECT_DIR$/python_base/05_Python的文件操作.md" />
-        <option value="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" />
         <option value="$PROJECT_DIR$/python_base/07_Python装饰器.md" />
+        <option value="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1032" />
-    <option name="width" value="648" />
+    <option name="x" value="1128" />
+    <option name="width" value="552" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -66,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,25 +87,20 @@
               <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
               <item name="python_base" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -157,19 +160,21 @@
       <option name="presentableId" value="Default" />
       <updated>1544949242753</updated>
       <workItem from="1562595450610" duration="2953000" />
+      <workItem from="1562900452979" duration="27000" />
+      <workItem from="1563113564406" duration="1969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2953000" />
+    <option name="totallyTimeSpent" value="4949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="487" y="0" width="1193" height="1050" extended-state="0" />
+    <frame x="1128" y="0" width="552" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27193746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05882353" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48877552" />
@@ -181,7 +186,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -286,31 +292,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_base/05_Python的文件操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_base/07_Python装饰器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="330">
             <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -327,6 +313,26 @@
             <element signature="e#182194#185365#0" />
             <element signature="e#182194#182463#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_base/05_Python的文件操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3435">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="427">
+            <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
