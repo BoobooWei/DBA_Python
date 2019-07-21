@@ -14,11 +14,11 @@
 `装饰器 = 高阶函数 + 函数嵌套 + 闭包`
 
 
-### 实践1-计算函数执行耗时
+### 实践1-计算函数执行耗时
 
 ```python
 import time
-def time_count(func):
+def time_count(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
         res = func(*args, **kwargs)
