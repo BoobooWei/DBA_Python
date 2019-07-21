@@ -678,7 +678,7 @@ class str(object):
     """
     str(object='') -> str
     str(bytes_or_buffer[, encoding[, errors]]) -> str
-    
+
     Create a new string object from the given object. If encoding or
     errors is specified, then the object must expose a data buffer
     that will be decoded using the given encoding and error handler.
@@ -690,7 +690,7 @@ class str(object):
     def capitalize(self, *args, **kwargs): # real signature unknown
         """
         Return a capitalized version of the string.
-        
+
         More specifically, make the first character have upper case and the rest lower
         case.
         """
@@ -703,7 +703,7 @@ class str(object):
     def center(self, *args, **kwargs): # real signature unknown
         """
         Return a centered string of length width.
-        
+
         Padding is done using the specified fill character (default is a space).
         """
         pass
@@ -711,7 +711,7 @@ class str(object):
     def count(self, sub, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.count(sub[, start[, end]]) -> int
-        
+
         Return the number of non-overlapping occurrences of substring sub in
         string S[start:end].  Optional arguments start and end are
         interpreted as in slice notation.
@@ -721,7 +721,7 @@ class str(object):
     def encode(self, *args, **kwargs): # real signature unknown
         """
         Encode the string using the codec registered for encoding.
-        
+
           encoding
             The encoding in which to encode the string.
           errors
@@ -736,7 +736,7 @@ class str(object):
     def endswith(self, suffix, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.endswith(suffix[, start[, end]]) -> bool
-        
+
         Return True if S ends with the specified suffix, False otherwise.
         With optional start, test S beginning at that position.
         With optional end, stop comparing S at that position.
@@ -747,7 +747,7 @@ class str(object):
     def expandtabs(self, *args, **kwargs): # real signature unknown
         """
         Return a copy where all tab characters are expanded using spaces.
-        
+
         If tabsize is not given, a tab size of 8 characters is assumed.
         """
         pass
@@ -755,11 +755,11 @@ class str(object):
     def find(self, sub, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.find(sub[, start[, end]]) -> int
-        
+
         Return the lowest index in S where substring sub is found,
         such that sub is contained within S[start:end].  Optional
         arguments start and end are interpreted as in slice notation.
-        
+
         Return -1 on failure.
         """
         return 0
@@ -767,7 +767,7 @@ class str(object):
     def format(self, *args, **kwargs): # known special case of str.format
         """
         S.format(*args, **kwargs) -> str
-        
+
         Return a formatted version of S, using substitutions from args and kwargs.
         The substitutions are identified by braces ('{' and '}').
         """
@@ -776,7 +776,7 @@ class str(object):
     def format_map(self, mapping): # real signature unknown; restored from __doc__
         """
         S.format_map(mapping) -> str
-        
+
         Return a formatted version of S, using substitutions from mapping.
         The substitutions are identified by braces ('{' and '}').
         """
@@ -785,11 +785,11 @@ class str(object):
     def index(self, sub, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.index(sub[, start[, end]]) -> int
-        
-        Return the lowest index in S where substring sub is found, 
+
+        Return the lowest index in S where substring sub is found,
         such that sub is contained within S[start:end].  Optional
         arguments start and end are interpreted as in slice notation.
-        
+
         Raises ValueError when the substring is not found.
         """
         return 0
@@ -797,7 +797,7 @@ class str(object):
     def isalnum(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is an alpha-numeric string, False otherwise.
-        
+
         A string is alpha-numeric if all characters in the string are alpha-numeric and
         there is at least one character in the string.
         """
@@ -806,7 +806,7 @@ class str(object):
     def isalpha(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is an alphabetic string, False otherwise.
-        
+
         A string is alphabetic if all characters in the string are alphabetic and there
         is at least one character in the string.
         """
@@ -815,7 +815,7 @@ class str(object):
     def isascii(self, *args, **kwargs): # real signature unknown
         """
         Return True if all characters in the string are ASCII, False otherwise.
-        
+
         ASCII characters have code points in the range U+0000-U+007F.
         Empty string is ASCII too.
         """
@@ -824,7 +824,7 @@ class str(object):
     def isdecimal(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a decimal string, False otherwise.
-        
+
         A string is a decimal string if all characters in the string are decimal and
         there is at least one character in the string.
         """
@@ -833,7 +833,7 @@ class str(object):
     def isdigit(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a digit string, False otherwise.
-        
+
         A string is a digit string if all characters in the string are digits and there
         is at least one character in the string.
         """
@@ -842,7 +842,7 @@ class str(object):
     def isidentifier(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a valid Python identifier, False otherwise.
-        
+
         Use keyword.iskeyword() to test for reserved identifiers such as "def" and
         "class".
         """
@@ -851,7 +851,7 @@ class str(object):
     def islower(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a lowercase string, False otherwise.
-        
+
         A string is lowercase if all cased characters in the string are lowercase and
         there is at least one cased character in the string.
         """
@@ -860,7 +860,7 @@ class str(object):
     def isnumeric(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a numeric string, False otherwise.
-        
+
         A string is numeric if all characters in the string are numeric and there is at
         least one character in the string.
         """
@@ -869,7 +869,7 @@ class str(object):
     def isprintable(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is printable, False otherwise.
-        
+
         A string is printable if all of its characters are considered printable in
         repr() or if it is empty.
         """
@@ -878,7 +878,7 @@ class str(object):
     def isspace(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a whitespace string, False otherwise.
-        
+
         A string is whitespace if all characters in the string are whitespace and there
         is at least one character in the string.
         """
@@ -887,7 +887,7 @@ class str(object):
     def istitle(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is a title-cased string, False otherwise.
-        
+
         In a title-cased string, upper- and title-case characters may only
         follow uncased characters and lowercase characters only cased ones.
         """
@@ -896,7 +896,7 @@ class str(object):
     def isupper(self, *args, **kwargs): # real signature unknown
         """
         Return True if the string is an uppercase string, False otherwise.
-        
+
         A string is uppercase if all cased characters in the string are uppercase and
         there is at least one cased character in the string.
         """
@@ -905,10 +905,10 @@ class str(object):
     def join(self, ab=None, pq=None, rs=None): # real signature unknown; restored from __doc__
         """
         Concatenate any number of strings.
-        
+
         The string whose method is called is inserted in between each given string.
         The result is returned as a new string.
-        
+
         Example: '.'.join(['ab', 'pq', 'rs']) -> 'ab.pq.rs'
         """
         pass
@@ -916,7 +916,7 @@ class str(object):
     def ljust(self, *args, **kwargs): # real signature unknown
         """
         Return a left-justified string of length width.
-        
+
         Padding is done using the specified fill character (default is a space).
         """
         pass
@@ -928,7 +928,7 @@ class str(object):
     def lstrip(self, *args, **kwargs): # real signature unknown
         """
         Return a copy of the string with leading whitespace removed.
-        
+
         If chars is given and not None, remove characters in chars instead.
         """
         pass
@@ -936,7 +936,7 @@ class str(object):
     def maketrans(self, *args, **kwargs): # real signature unknown
         """
         Return a translation table usable for str.translate().
-        
+
         If there is only one argument, it must be a dictionary mapping Unicode
         ordinals (integers) or characters to Unicode ordinals, strings or None.
         Character keys will be then converted to ordinals.
@@ -950,11 +950,11 @@ class str(object):
     def partition(self, *args, **kwargs): # real signature unknown
         """
         Partition the string into three parts using the given separator.
-        
+
         This will search for the separator in the string.  If the separator is found,
         returns a 3-tuple containing the part before the separator, the separator
         itself, and the part after it.
-        
+
         If the separator is not found, returns a 3-tuple containing the original string
         and two empty strings.
         """
@@ -963,11 +963,11 @@ class str(object):
     def replace(self, *args, **kwargs): # real signature unknown
         """
         Return a copy with all occurrences of substring old replaced by new.
-        
+
           count
             Maximum number of occurrences to replace.
             -1 (the default value) means replace all occurrences.
-        
+
         If the optional argument count is given, only the first count occurrences are
         replaced.
         """
@@ -976,11 +976,11 @@ class str(object):
     def rfind(self, sub, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.rfind(sub[, start[, end]]) -> int
-        
+
         Return the highest index in S where substring sub is found,
         such that sub is contained within S[start:end].  Optional
         arguments start and end are interpreted as in slice notation.
-        
+
         Return -1 on failure.
         """
         return 0
@@ -988,11 +988,11 @@ class str(object):
     def rindex(self, sub, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.rindex(sub[, start[, end]]) -> int
-        
+
         Return the highest index in S where substring sub is found,
         such that sub is contained within S[start:end].  Optional
         arguments start and end are interpreted as in slice notation.
-        
+
         Raises ValueError when the substring is not found.
         """
         return 0
@@ -1000,7 +1000,7 @@ class str(object):
     def rjust(self, *args, **kwargs): # real signature unknown
         """
         Return a right-justified string of length width.
-        
+
         Padding is done using the specified fill character (default is a space).
         """
         pass
@@ -1008,11 +1008,11 @@ class str(object):
     def rpartition(self, *args, **kwargs): # real signature unknown
         """
         Partition the string into three parts using the given separator.
-        
+
         This will search for the separator in the string, starting at the end. If
         the separator is found, returns a 3-tuple containing the part before the
         separator, the separator itself, and the part after it.
-        
+
         If the separator is not found, returns a 3-tuple containing two empty strings
         and the original string.
         """
@@ -1021,7 +1021,7 @@ class str(object):
     def rsplit(self, *args, **kwargs): # real signature unknown
         """
         Return a list of the words in the string, using sep as the delimiter string.
-        
+
           sep
             The delimiter according which to split the string.
             None (the default value) means split according to any whitespace,
@@ -1029,7 +1029,7 @@ class str(object):
           maxsplit
             Maximum number of splits to do.
             -1 (the default value) means no limit.
-        
+
         Splits are done starting at the end of the string and working to the front.
         """
         pass
@@ -1037,7 +1037,7 @@ class str(object):
     def rstrip(self, *args, **kwargs): # real signature unknown
         """
         Return a copy of the string with trailing whitespace removed.
-        
+
         If chars is given and not None, remove characters in chars instead.
         """
         pass
@@ -1045,7 +1045,7 @@ class str(object):
     def split(self, *args, **kwargs): # real signature unknown
         """
         Return a list of the words in the string, using sep as the delimiter string.
-        
+
           sep
             The delimiter according which to split the string.
             None (the default value) means split according to any whitespace,
@@ -1059,7 +1059,7 @@ class str(object):
     def splitlines(self, *args, **kwargs): # real signature unknown
         """
         Return a list of the lines in the string, breaking at line boundaries.
-        
+
         Line breaks are not included in the resulting list unless keepends is given and
         true.
         """
@@ -1068,7 +1068,7 @@ class str(object):
     def startswith(self, prefix, start=None, end=None): # real signature unknown; restored from __doc__
         """
         S.startswith(prefix[, start[, end]]) -> bool
-        
+
         Return True if S starts with the specified prefix, False otherwise.
         With optional start, test S beginning at that position.
         With optional end, stop comparing S at that position.
@@ -1079,7 +1079,7 @@ class str(object):
     def strip(self, *args, **kwargs): # real signature unknown
         """
         Return a copy of the string with leading and trailing whitespace remove.
-        
+
         If chars is given and not None, remove characters in chars instead.
         """
         pass
@@ -1091,7 +1091,7 @@ class str(object):
     def title(self, *args, **kwargs): # real signature unknown
         """
         Return a version of the string where each word is titlecased.
-        
+
         More specifically, words start with uppercased characters and all remaining
         cased characters have lower case.
         """
@@ -1100,11 +1100,11 @@ class str(object):
     def translate(self, *args, **kwargs): # real signature unknown
         """
         Replace each character in the string using the given translation table.
-        
+
           table
             Translation table, which must be a mapping of Unicode ordinals to
             Unicode ordinals, strings, or None.
-        
+
         The table must implement lookup/indexing via __getitem__, for instance a
         dictionary or list.  If this operation raises LookupError, the character is
         left untouched.  Characters mapped to None are deleted.
@@ -1118,7 +1118,7 @@ class str(object):
     def zfill(self, *args, **kwargs): # real signature unknown
         """
         Pad a numeric string with zeros on the left, to fill a field of the given width.
-        
+
         The string is never truncated.
         """
         pass
@@ -1166,7 +1166,7 @@ class str(object):
         """
         str(object='') -> str
         str(bytes_or_buffer[, encoding[, errors]]) -> str
-        
+
         Create a new string object from the given object. If encoding or
         errors is specified, then the object must expose a data buffer
         that will be decoded using the given encoding and error handler.
@@ -1240,7 +1240,7 @@ class str(object):
 class list(object):
     """
     Built-in mutable sequence.
-    
+
     If no argument is given, the constructor creates a new empty list.
     The argument must be an iterable if specified.
     """
@@ -1267,7 +1267,7 @@ class list(object):
     def index(self, *args, **kwargs): # real signature unknown
         """
         Return first index of value.
-        
+
         Raises ValueError if the value is not present.
         """
         pass
@@ -1279,7 +1279,7 @@ class list(object):
     def pop(self, *args, **kwargs): # real signature unknown
         """
         Remove and return item at index (default last).
-        
+
         Raises IndexError if list is empty or index is out of range.
         """
         pass
@@ -1287,7 +1287,7 @@ class list(object):
     def remove(self, *args, **kwargs): # real signature unknown
         """
         Remove first occurrence of value.
-        
+
         Raises ValueError if the value is not present.
         """
         pass
@@ -1343,7 +1343,7 @@ class list(object):
     def __init__(self, seq=()): # known special case of list.__init__
         """
         Built-in mutable sequence.
-        
+
         If no argument is given, the constructor creates a new empty list.
         The argument must be an iterable if specified.
         # (copied from class doc)
@@ -1409,10 +1409,10 @@ class list(object):
 class tuple(object):
     """
     Built-in immutable sequence.
-    
+
     If no argument is given, the constructor returns an empty tuple.
     If iterable is specified the tuple is initialized from iterable's items.
-    
+
     If the argument is a tuple, the return value is the same object.
     """
     def count(self, *args, **kwargs): # real signature unknown
@@ -1422,7 +1422,7 @@ class tuple(object):
     def index(self, *args, **kwargs): # real signature unknown
         """
         Return first index of value.
-        
+
         Raises ValueError if the value is not present.
         """
         pass
@@ -1465,10 +1465,10 @@ class tuple(object):
     def __init__(self, seq=()): # known special case of tuple.__init__
         """
         Built-in immutable sequence.
-        
+
         If no argument is given, the constructor returns an empty tuple.
         If iterable is specified the tuple is initialized from iterable's items.
-        
+
         If the argument is a tuple, the return value is the same object.
         # (copied from class doc)
         """
@@ -1569,7 +1569,7 @@ class dict(object):
     def setdefault(self, *args, **kwargs): # real signature unknown
         """
         Insert key with a value of default if key is not in the dictionary.
-        
+
         Return the value for key if key is in the dictionary, else default.
         """
         pass
@@ -1677,13 +1677,13 @@ class set(object):
     """
     set() -> new empty set object
     set(iterable) -> new set object
-    
+
     Build an unordered collection of unique elements.
     """
     def add(self, *args, **kwargs): # real signature unknown
         """
         Add an element to a set.
-        
+
         This has no effect if the element is already present.
         """
         pass
@@ -1698,8 +1698,9 @@ class set(object):
 
     def difference(self, *args, **kwargs): # real signature unknown
         """
+				差集
         Return the difference of two or more sets as a new set.
-        
+
         (i.e. all elements that are in this set but not the others.)
         """
         pass
@@ -1711,15 +1712,16 @@ class set(object):
     def discard(self, *args, **kwargs): # real signature unknown
         """
         Remove an element from a set if it is a member.
-        
+
         If the element is not a member, do nothing.
         """
         pass
 
     def intersection(self, *args, **kwargs): # real signature unknown
         """
+				交集
         Return the intersection of two sets as a new set.
-        
+
         (i.e. all elements that are in both sets.)
         """
         pass
@@ -1750,15 +1752,16 @@ class set(object):
     def remove(self, *args, **kwargs): # real signature unknown
         """
         Remove an element from a set; it must be a member.
-        
+
         If the element is not a member, raise a KeyError.
         """
         pass
 
     def symmetric_difference(self, *args, **kwargs): # real signature unknown
         """
+				对称差集
         Return the symmetric difference of two sets as a new set.
-        
+
         (i.e. all elements that are in exactly one of the sets.)
         """
         pass
@@ -1769,8 +1772,9 @@ class set(object):
 
     def union(self, *args, **kwargs): # real signature unknown
         """
+				并集
         Return the union of sets as a new set.
-        
+
         (i.e. all elements that are in either set.)
         """
         pass
@@ -1811,7 +1815,7 @@ class set(object):
         """
         set() -> new empty set object
         set(iterable) -> new set object
-        
+
         Build an unordered collection of unique elements.
         # (copied from class doc)
         """
@@ -1899,5 +1903,3 @@ class set(object):
 ```
 
 ## 基本类型间的转化
-
-
