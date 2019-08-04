@@ -361,7 +361,103 @@ print(res)
 
 ### 函数闭包加上解压序列
 
+
+解压序列:如果只需要第一个和最后一个，可以通过解压序列直接获取开头和结尾
+
+```bash
+I = [10,3,2,3,5,1,2,3,5,8,9]
+a,*_,b = I
+a
+Out[4]: 10
+b
+Out[5]: 9
+a,b,c,*m,last = I
+a
+Out[7]: 10
+b
+Out[8]: 3
+c
+Out[9]: 2
+m
+Out[10]: [3, 5, 1, 2, 3, 5, 8]
+last
+Out[11]: 9
+```
+
+a,b交换
+
+```bash
+a,b=1,2
+a,b=b,a
+a
+Out[17]: 2
+b
+Out[18]: 1
+```
+
 ### 函数闭包加上认证功能
+
+
+```python
+# -*- coding:utf-8 -*-
+
+users = [{
+    "username": "tom",
+    "password": "123"
+}]
+
+
+def auth_func(func):
+    def wrapper(*args, **kwargs):
+        # 验证功能
+        check = 0
+        username = input("username:").strip()
+        password = input("password:").strip()
+        for user in users:
+            if username == user["username"] and password == user["password"]:
+                check = 1
+                break
+        if check == 1:
+            func(*args, **kwargs)
+        else:
+            print("认证失败")
+
+    return wrapper
+
+
+@auth_func
+def index():
+    print("欢迎来到京东主页")
+
+
+@auth_func
+def home(name):
+    print("欢迎回家 {}".format(name))
+
+
+@auth_func
+def shopping_car(name):
+    print("%s 的购物车中有[%s, %s, %s]" % (name, "奶茶", "妹妹", "牙刷"))
+
+
+index()
+home("booboo")
+shopping_car("booboo")
+```
+
+运行结果
+
+```bash
+username:booboo
+password:123
+认证失败
+username:tom
+password:123
+欢迎回家 booboo
+username:tom
+password:123
+booboo 的购物车中有[奶茶, 妹妹, 牙刷]
+```
 
 ### 函数闭包模拟session
 
