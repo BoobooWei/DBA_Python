@@ -1,8 +1,13 @@
 # -*- coding:utf-8 -*-
 
-users = {
-    "username": "tom",
-    "password": "123",
+users = [
+    {"username": "tom", "password": "123"},
+    {"username": "jack", "password": "123"},
+]
+
+current_user = {
+    "username": None,
+    "password": None,
     "login": False,
 }
 
@@ -10,17 +15,19 @@ users = {
 def auth_func(func):
     def wrapper(*args, **kwargs):
         # 验证功能
-        if users["login"]:
+        if current_user["login"]:
             res = func(*args, **kwargs)
             return res
         else:
             username = input("username:").strip()
             password = input("password:").strip()
-
-            if username == users["username"] and password == users["password"]:
-                res = func(*args, **kwargs)
-                users["login"] = True
-                return res
+            for user in users:
+                if username == user["username"] and password == user["password"]:
+                    res = func(*args, **kwargs)
+                    current_user["username"] = username
+                    current_user["password"] = password
+                    current_user["login"] = True
+                    return res
             else:
                 print("认证失败")
 
