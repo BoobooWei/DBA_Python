@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python_base/09_Python模块和包.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_base/09_Python模块和包.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_base/09_Python模块和包.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/python_base/09_Python模块和包.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <first_editor relative-caret-position="386">
+                <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -379,12 +379,12 @@
       <workItem from="1564922207244" duration="287000" />
       <workItem from="1564922974013" duration="3862000" />
       <workItem from="1565098457228" duration="328000" />
-      <workItem from="1565657439160" duration="391000" />
+      <workItem from="1565657439160" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15439000" />
+    <option name="totallyTimeSpent" value="15786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -617,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/python_base/08_Python装饰器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="9182">
+          <first_editor relative-caret-position="661">
             <caret line="619" column="13" selection-start-line="619" selection-start-column="3" selection-end-line="619" selection-end-column="13" />
           </first_editor>
           <second_editor />
@@ -627,8 +627,8 @@
     <entry file="file://$PROJECT_DIR$/python_base/09_Python模块和包.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="386">
+            <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
