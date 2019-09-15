@@ -8,3 +8,6 @@
 2. 系统学习：老男孩的视频
 3. 项目学习：GitHub优秀项目的学习模仿
 
+
+[Python入门](https://github.com/BoobooWei/learn-python)
+[Python 资源大全中文版](https://github.com/BoobooWei/awesome-python-cn)
