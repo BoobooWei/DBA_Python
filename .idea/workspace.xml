@@ -2,51 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/01_python_net/01_客户端服务器架构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/02_OSI七层模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/03_详解socket层.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/04_基于TCP的套接字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/05_基于UDP的套接字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/06_粘包现象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/07_认证客户端的链接合法性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/08_socketserver实现并发.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/02_Python并发编程之多进程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/03_Python并发编程之多线程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/04_Python并发编程之协程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_python_threads/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/01_Python的历史和展望.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/01_Python的历史和展望.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/02_Python的基本数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/02_Python的基本数据类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/03_Python的基本运算.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/03_Python的基本运算.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/04_Python的控制和函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/04_Python的控制和函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/05_Python的文件操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/05_Python的文件操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/06_Python迭代器和生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/06_Python迭代器和生成器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/07_Python深浅拷贝.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/07_Python深浅拷贝.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/08_Python装饰器.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/08_Python装饰器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/09_Python模块和包.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/09_Python模块和包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/10_Python面向对象设计和类.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/10_Python面向对象设计和类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/auth.json" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/auth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/mysql_test/bc9f6576-d91c-11e9-b43e-acde48001122" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/mysql_test/bc9f6576-d91c-11e9-b43e-acde48001122" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/exec/mysql_test/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/exec/mysql_test/my.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/pic/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/pic/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/pic/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/pic/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/pic/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/pic/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/pic/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/pic/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/pic/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/pic/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/README/aa.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/README/aa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/aliyun_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/aliyun_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/argparse_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/argparse_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/common_tookit.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/common_tookit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/influx_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/influx_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/jinjia2_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/jinjia2_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/log_conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/log_conf.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/logging_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/logging_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/mysql_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/mysql_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/openpyxl_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/openpyxl_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/re_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/re_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/templates/template_markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/templates/template_markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/uuid_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/uuid_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/public_api/xlsxwriter_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/xlsxwriter_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_base/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/readme.md" afterDir="false" />
       <change beforePath="$USER_HOME$/python_project/fms/tools.py" beforeDir="false" afterPath="$USER_HOME$/python_project/fms/tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +28,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,6 +117,13 @@
         <option value="$PROJECT_DIR$/python_base/exec/09.py" />
         <option value="$PROJECT_DIR$/python_base/public_api/uuid_helper.py" />
         <option value="$PROJECT_DIR$/python_base/exec/10.py" />
+        <option value="$PROJECT_DIR$/01_python_net/readme.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/readme.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/03_Python并发编程之多线程.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/04_Python并发编程之协程.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md" />
+        <option value="$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md" />
       </list>
     </option>
   </component>
@@ -151,6 +143,11 @@
             <path>
               <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="02_python_threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,15 +460,16 @@
       <workItem from="1565657439160" duration="897000" />
       <workItem from="1568506090358" duration="6523000" />
       <workItem from="1568683982012" duration="2229000" />
-      <workItem from="1568691554737" duration="5548000" />
+      <workItem from="1568691554737" duration="6744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30245000" />
+    <option name="totallyTimeSpent" value="31441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -479,13 +477,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2755102" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22040816" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.35612243" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -563,133 +561,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/_string.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/02_Python的基本数据类型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="517">
-            <caret line="1902" selection-start-line="1902" selection-end-line="1902" />
-            <folding>
-              <element signature="e#19466#20955#0" />
-              <element signature="e#21052#41068#0" />
-              <element signature="e#41079#46004#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/04_Python的控制和函数.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/03_Python的基本运算.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="4641" column="26" selection-start-line="4641" selection-start-column="14" selection-end-line="4641" selection-end-column="26" />
-          <folding>
-            <element signature="e#97158#102553#0" />
-            <element signature="e#123013#127900#0" />
-            <element signature="e#146489#153221#0" />
-            <element signature="e#182194#185365#0" />
-            <element signature="e#182194#182463#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/05_Python的文件操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3435">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_base/07_Python装饰器.md" />
-    <entry file="file:///usr/local/lib/python3.7/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="3324" selection-start-line="3324" selection-end-line="3324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/06_Python迭代器和生成器.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="407">
-            <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python_project/fms/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="341" column="46" lean-forward="true" selection-start-line="341" selection-start-column="46" selection-end-line="341" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python_project/shirne/work_list/2019-07-23-需求记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python_project/shirne/app/calculate_confirm_cost_1.py" />
-    <entry file="file://$USER_HOME$/python_project/shirne/app/calculate_confirm_cost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="404" lean-forward="true" selection-start-line="404" selection-end-line="404" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/booboo.txt" />
-    <entry file="file://$PROJECT_DIR$/00_python_base/exec/03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/exec/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/exec/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_python_base/08_Python装饰器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -967,6 +838,156 @@
             <folding>
               <element signature="e#0#11#0" expanded="true" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/01_客户端/服务器架构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/02_OSI七层模型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/03_详解socket层.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/04_基于TCP的套接字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/05_基于UDP的套接字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/06_粘包现象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/07_认证客户端的链接合法性.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/08_socketserver实现并发.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/01_客户端服务器架构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/02_Python并发编程之多进程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/03_Python并发编程之多线程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/04_Python并发编程之协程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
