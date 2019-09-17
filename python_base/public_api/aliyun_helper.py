@@ -1,3 +1,5 @@
+# -*- coding:utf8 -*-
+
 # 非 oss 产品
 # 3rd-part Modules
 from aliyun_sdk import client

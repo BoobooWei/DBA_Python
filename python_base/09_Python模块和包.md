@@ -34,6 +34,15 @@
 	- [logging模块](#logging模块)
 	- [re模块](#re模块)
 	- [argparse模块](#argparse模块)
+	- [UUID模块](#uuid模块)
+		- [概述](#概述)
+		- [算法](#算法)
+			- [uuid1()——基于时间戳](#uuid1基于时间戳)
+			- [uuid2()——基于分布式计算环境DCE（Python中没有这个函数）](#uuid2基于分布式计算环境dcepython中没有这个函数)
+			- [uuid3()——基于名字的MD5散列值](#uuid3基于名字的md5散列值)
+			- [uuid4()——基于随机数](#uuid4基于随机数)
+			- [uuid5()——基于名字的SHA-1散列值](#uuid5基于名字的sha-1散列值)
+		- [使用建议](#使用建议)
 	- [参考](#参考)
 
 <!-- /TOC -->
@@ -742,6 +751,51 @@ re是一个用来处理正则表达式的库
 
 > 需要开发一些小工具时的必要第三方包！
 
+## UUID模块
+
+[帮助文档](http://www.cnblogs.com/dkblog/archive/2011/10/10/2205200.html)
+
+* Python官方Doc：《20.15. uuid — UUID objects according to RFC 4122》
+* UUID的算法介绍：《A Universally Unique IDentifier (UUID) URN Namespace》
+
+### 概述
+
+UUID是128位的全局唯一标识符，通常由32字节的字符串表示。它可以保证时间和空间的唯一性，它通过MAC地址、时间戳、命名空间、随机数、伪随机数来保证生成ID的唯一性。
+
+### 算法
+
+> UUID主要有五个算法，也就是五种方法来实现：
+
+#### uuid1()——基于时间戳
+
+由MAC地址、当前时间戳、随机数生成。可以保证全球范围内的唯一性，但MAC的使用同时带来安全性问题，局域网中可以使用IP来代替MAC。
+
+#### uuid2()——基于分布式计算环境DCE（Python中没有这个函数）
+
+算法与uuid1相同，不同的是把时间戳的前4位置换为POSIX的UID。实际中很少用到该方法。
+
+#### uuid3()——基于名字的MD5散列值
+
+通过计算名字和命名空间的MD5散列值得到，保证了同一命名空间中不同名字的唯一性，和不同命名空间的唯一性，但同一命名空间的同一名字生成相同的uuid。    
+
+#### uuid4()——基于随机数
+
+由伪随机数得到，有一定的重复概率，该概率可以计算出来。
+
+#### uuid5()——基于名字的SHA-1散列值
+
+算法与uuid3相同，不同的是使用 Secure Hash Algorithm 1 算法
+
+### 使用建议
+
+* Python中没有基于DCE的，所以uuid2可以忽略；
+* uuid4存在概率性重复，由无映射性，最好不用；
+* 若在Global的分布式计算环境下，最好用uuid1；
+* 若有名字的唯一性要求，最好用uuid3或uuid5。
+
+
 ## 参考
 
 [参考文章](https://www.cnblogs.com/yuanchenqi/articles/5732581.html)
+
+```
