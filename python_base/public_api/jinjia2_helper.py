@@ -19,6 +19,7 @@ class GetMarkdown:
         self.provider = kwargs['provider']
         self.check_script = kwargs['check_script']
         self.check_name = kwargs['check_name']
+        self.seq = kwargs['seq']
 
     def render_template(self, TEMPLATE_DIR):
         with codecs.open(TEMPLATE_DIR + '/' + 'template_markdown.md', 'r', 'utf-8') as f:
@@ -29,6 +30,7 @@ class GetMarkdown:
                 'check_name': self.check_name,
                 'check_script': self.check_script,
                 'provider': self.provider,
+                'seq': self.seq,
             }
 
             return template.render(**render_data)
@@ -45,6 +47,7 @@ if __name__ == '__main__':
         "check_name": 'cc',
         "check_script": 'aa',
         "provider": 'aliyun',
+        "seq": ['a', 'b', 'c'],
     }]
     for params in params_list:
         api = GetMarkdown(**params)

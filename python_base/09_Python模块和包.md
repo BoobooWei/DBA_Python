@@ -33,6 +33,7 @@
 	- [subprocess模块](#subprocess模块)
 	- [logging模块](#logging模块)
 	- [re模块](#re模块)
+	- [argparse模块](#argparse模块)
 	- [参考](#参考)
 
 <!-- /TOC -->
@@ -732,7 +733,14 @@ re是一个用来处理正则表达式的库
 
 [帮助文档](https://www.jianshu.com/p/d3cbab5874e4)
 
+[re参考案例](https://github.com/BoobooWei/DBA_Mysql/blob/master/scripts/analyze/pythonshell/binlog_analyze.py)
 
+
+## argparse模块
+
+[帮助文档](https://docs.python.org/3/library/argparse.html)
+
+> 需要开发一些小工具时的必要第三方包！
 
 ## 参考
 
