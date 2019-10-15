@@ -26,10 +26,13 @@ class MysqlHelper:
         self.password = kwargs['password']
         self.dbname = kwargs['dbname']
         self.charset = "utf8"
-        self.conn = pymysql.connect(host=self.url, user=self.username, passwd=self.password, port=self.port,
+        try:
+            self.conn = pymysql.connect(host=self.url, user=self.username, passwd=self.password, port=self.port,
                                     charset=self.charset, db=self.dbname)
-        self.cur = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
-
+            self.cur = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
+        except Exception:
+            print('connection err')
+            
     def col_query(self, sql):
         """
         打印表的列名
