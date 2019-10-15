@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01_python_net/01_客户端服务器架构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/02_OSI七层模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/03_详解socket层.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/04_基于TCP的套接字.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/05_基于UDP的套接字.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/06_粘包现象.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/07_认证客户端的链接合法性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/08_socketserver实现并发.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/01_Python网络开发之客户端服务器架构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/02_Python网络开发之OSI七层模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/03_Python网络开发之详解socket层.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/04_Python网络开发之基于TCP的套接字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/05_Python网络开发之基于UDP的套接字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/06_Python网络开发之粘包现象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/07_Python网络开发之认证客户端的链接合法性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_python_net/08_Python网络开发之socketserver实现并发.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/01_python_net/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_python_threads/02_Python并发编程之多进程.md" afterDir="false" />
@@ -28,20 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,13 +104,13 @@
         <option value="$PROJECT_DIR$/python_base/exec/09.py" />
         <option value="$PROJECT_DIR$/python_base/public_api/uuid_helper.py" />
         <option value="$PROJECT_DIR$/python_base/exec/10.py" />
-        <option value="$PROJECT_DIR$/01_python_net/readme.md" />
         <option value="$PROJECT_DIR$/02_python_threads/readme.md" />
         <option value="$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md" />
         <option value="$PROJECT_DIR$/02_python_threads/03_Python并发编程之多线程.md" />
         <option value="$PROJECT_DIR$/02_python_threads/04_Python并发编程之协程.md" />
         <option value="$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md" />
         <option value="$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md" />
+        <option value="$PROJECT_DIR$/01_python_net/readme.md" />
       </list>
     </option>
   </component>
@@ -143,11 +130,6 @@
             <path>
               <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="02_python_threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,18 +442,17 @@
       <workItem from="1565657439160" duration="897000" />
       <workItem from="1568506090358" duration="6523000" />
       <workItem from="1568683982012" duration="2229000" />
-      <workItem from="1568691554737" duration="6744000" />
+      <workItem from="1568691554737" duration="6918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31441000" />
+    <option name="totallyTimeSpent" value="31615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -483,7 +464,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.35612243" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -851,17 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/02_OSI七层模型.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/02_Python网络开发之OSI七层模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -869,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/03_详解socket层.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/03_Python网络开发之详解socket层.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -877,7 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/04_基于TCP的套接字.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/04_Python网络开发之基于TCP的套接字.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -885,7 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/05_基于UDP的套接字.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/05_Python网络开发之基于UDP的套接字.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -893,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/06_粘包现象.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/06_Python网络开发之粘包现象.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -901,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/07_认证客户端的链接合法性.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/07_Python网络开发之认证客户端的链接合法性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -909,7 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/08_socketserver实现并发.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/08_Python网络开发之socketserver实现并发.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -917,7 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/01_客户端服务器架构.md">
+    <entry file="file://$PROJECT_DIR$/01_python_net/01_Python网络开发之客户端服务器架构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -988,6 +959,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" selection-start-column="2" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
