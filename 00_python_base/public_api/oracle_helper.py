@@ -50,8 +50,15 @@ class OracleHelper:
                 self.error = 0
 
     def col_query(self, sql):
-        self.cur.execute(sql)
-        return self.cur.fetchall()
+        result = []
+        # sql = "select 'booboo' as name, 1 as num from dual union all select 'jack' as name, 2 as num from dual"
+        res = self.cur.execute(sql)
+        rows = res.fetchall()
+        # print(self.cur.description)
+        cols = [d[0].lower() for d in self.cur.description]
+        for row in rows:
+            result.append(dict(zip(cols, row)))
+        return result
 
     def commit(self):
         self.conn.commit()
