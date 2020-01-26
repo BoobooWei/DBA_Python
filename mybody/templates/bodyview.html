@@ -1,0 +1,16 @@
+{% extends 'admin/master.html' %}
+{% block body%}
+<body>
+<a href="{{ url_for('happy.index') }}">&larr; Return</a>
+<div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <iframe
+                        src="http://192.168.14.155:8888/sources/1/dashboards/4?lower=now%28%29%20-%2015m"
+                        frameborder="0" width="100%" scrolling="auto" height="800"
+                        leftmargin="0" topmargin="0">
+                        </iframe>
+                    </div>
+                </div>
+
+</body>
+{% endblock%}
