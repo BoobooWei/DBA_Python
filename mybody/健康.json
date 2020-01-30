@@ -1,0 +1,966 @@
+{
+	"meta": {
+		"chronografVersion": "1.7.10",
+		"sources": {
+			"1": {
+				"name": "Influx 1",
+				"link": "/chronograf/v1/sources/1"
+			}
+		}
+	},
+	"dashboard": {
+		"id": 4,
+		"cells": [
+			{
+				"i": "41547949-6516-4c79-82ba-703b9ca8aac9",
+				"x": 3,
+				"y": 0,
+				"w": 9,
+				"h": 2,
+				"name": "当前体围 CM",
+				"queries": [
+					{
+						"query": "SELECT last(\"high_waistline\") as \"上腰围\", \nlast(\"waistline\") as \"腰围\",\nlast(\"low_waistline\") as \"下腰围\", \nlast(\"hipline\") as \"臀围\",   \nlast(\"thigh_circumference\") as \"大腿根围\",\nlast(\"low_thigh_circumference\") as \"大腿细围\",\nlast(\"calf_circumference\") as \"小腿围\" \nFROM \"telegraf\".\"autogen\".\"body\" WHERE time > :dashboardTime: AND \"name\"='\"booboowei\"'\n",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "body",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "上腰围",
+									"args": [
+										{
+											"value": "high_waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "腰围",
+									"args": [
+										{
+											"value": "waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "下腰围",
+									"args": [
+										{
+											"value": "low_waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "臀围",
+									"args": [
+										{
+											"value": "hipline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "大腿根围",
+									"args": [
+										{
+											"value": "thigh_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "大腿细围",
+									"args": [
+										{
+											"value": "low_thigh_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "小腿围",
+									"args": [
+										{
+											"value": "calf_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"\"booboowei\""
+								]
+							},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": true,
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "table",
+				"colors": [
+					{
+						"id": "base",
+						"type": "text",
+						"hex": "#00C9FF",
+						"name": "laser",
+						"value": "-1000000000000000000"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": false
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": false
+					},
+					{
+						"internalName": "body.上腰围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.腰围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.下腰围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.大腿根围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.大腿细围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.小腿围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.臀围",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/41547949-6516-4c79-82ba-703b9ca8aac9"
+				}
+			},
+			{
+				"i": "7ed71762-9e33-4779-acd2-8bda3e4cf962",
+				"x": 3,
+				"y": 2,
+				"w": 9,
+				"h": 3,
+				"name": " 每天体围变化",
+				"queries": [
+					{
+						"query": "SELECT difference(\"high_waistline\") as \"上腰围\", difference(\"waistline\") as \"腰围\",difference(\"low_waistline\") as \"下腰围\", difference(\"hipline\") as \"臀围\",   difference(\"thigh_circumference\") as \"大腿根围\",difference(\"low_thigh_circumference\") as \"大腿细围\",difference(\"calf_circumference\") as \"小腿围\" FROM (select mean(calf_circumference) as calf_circumference, mean(high_waistline) as high_waistline,mean(hipline) as hipline,mean(low_thigh_circumference) as low_thigh_circumference,mean(low_waistline) as low_waistline,mean(thigh_circumference) as thigh_circumference,mean(waistline) as waistline from \"telegraf\".\"autogen\".\"body\" WHERE \"name\"='\"booboowei\"' group by time(1d))",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT difference(\"high_waistline\") as \"上腰围\", difference(\"waistline\") as \"腰围\",difference(\"low_waistline\") as \"下腰围\", difference(\"hipline\") as \"臀围\",   difference(\"thigh_circumference\") as \"大腿根围\",difference(\"low_thigh_circumference\") as \"大腿细围\",difference(\"calf_circumference\") as \"小腿围\" FROM (select mean(calf_circumference) as calf_circumference, mean(high_waistline) as high_waistline,mean(hipline) as hipline,mean(low_thigh_circumference) as low_thigh_circumference,mean(low_waistline) as low_waistline,mean(thigh_circumference) as thigh_circumference,mean(waistline) as waistline from \"telegraf\".\"autogen\".\"body\" WHERE \"name\"='\"booboowei\"' group by time(1d))",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "table",
+				"colors": [
+					{
+						"id": "base",
+						"type": "background",
+						"hex": "#7CE490",
+						"name": "honeydew",
+						"value": "-1000000000000000000"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.上腰围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.大腿细围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.小腿围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.臀围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.下腰围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.大腿根围",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.腰围",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "YYYY-MM-DD",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/7ed71762-9e33-4779-acd2-8bda3e4cf962"
+				}
+			},
+			{
+				"i": "86a195d1-0675-45ba-b863-7b932fa71a1f",
+				"x": 0,
+				"y": 2,
+				"w": 3,
+				"h": 3,
+				"name": "每天体重变化",
+				"queries": [
+					{
+						"query": "SELECT DIFFERENCE(\"weight\") as \"体重变化\" FROM (select mean(weight) as weight from \"telegraf\".\"autogen\".\"body\" WHERE  \"name\"='\"booboowei\"' group by time(1d)) ",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT DIFFERENCE(\"weight\") as \"体重变化\" FROM (select mean(weight) as weight from \"telegraf\".\"autogen\".\"body\" WHERE  \"name\"='\"booboowei\"' group by time(1d)) ",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "table",
+				"colors": [
+					{
+						"id": "base",
+						"type": "background",
+						"hex": "#7CE490",
+						"name": "honeydew",
+						"value": "-1000000000000000000"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "body.体重变化",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "YYYY-MM-DD",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/86a195d1-0675-45ba-b863-7b932fa71a1f"
+				}
+			},
+			{
+				"i": "0b680ef6-39c1-49aa-831a-3cb32bb0a7ee",
+				"x": 0,
+				"y": 0,
+				"w": 3,
+				"h": 2,
+				"name": "当前体重",
+				"queries": [
+					{
+						"query": "SELECT last(\"weight\") AS \"last_weight\" FROM \"telegraf\".\"autogen\".\"body\" WHERE time > :dashboardTime: AND \"name\"='\"booboowei\"'",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "body",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "last",
+									"type": "func",
+									"alias": "last_weight",
+									"args": [
+										{
+											"value": "weight",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"\"booboowei\""
+								]
+							},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": true,
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "gauge",
+				"colors": [
+					{
+						"id": "0",
+						"type": "min",
+						"hex": "#7CE490",
+						"name": "honeydew",
+						"value": "45"
+					},
+					{
+						"id": "1",
+						"type": "max",
+						"hex": "#BF3D5E",
+						"name": "ruby",
+						"value": "55"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/0b680ef6-39c1-49aa-831a-3cb32bb0a7ee"
+				}
+			},
+			{
+				"i": "00501604-7fd1-402e-a50b-d42fb1570135",
+				"x": 0,
+				"y": 5,
+				"w": 12,
+				"h": 3,
+				"name": "体重",
+				"queries": [
+					{
+						"query": "SELECT mean(\"weight\") AS \"mean_weight\" FROM \"telegraf\".\"autogen\".\"body\" WHERE time > :dashboardTime: AND \"name\"='\"booboowei\"' GROUP BY time(:interval:) FILL(null)",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "body",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_weight",
+									"args": [
+										{
+											"value": "weight",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"\"booboowei\""
+								]
+							},
+							"groupBy": {
+								"time": "auto",
+								"tags": []
+							},
+							"areTagsAccepted": true,
+							"fill": "null",
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "/chronograf/v1/sources/1",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "c7c42d17-61b2-4959-83e3-bf624a14d4a8",
+						"type": "scale",
+						"hex": "#DA6FF1",
+						"name": "Ectoplasm",
+						"value": "0"
+					},
+					{
+						"id": "a1fa9bb7-f1b0-44f6-a10d-fab4d10223d9",
+						"type": "scale",
+						"hex": "#00717A",
+						"name": "Ectoplasm",
+						"value": "0"
+					},
+					{
+						"id": "f7d3eae8-ba4c-4218-8109-87c44b1d0e23",
+						"type": "scale",
+						"hex": "#ACFF76",
+						"name": "Ectoplasm",
+						"value": "0"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/00501604-7fd1-402e-a50b-d42fb1570135"
+				}
+			},
+			{
+				"i": "7f77ec30-31d2-4b60-b9a8-6eda044792d5",
+				"x": 0,
+				"y": 8,
+				"w": 12,
+				"h": 3,
+				"name": "体围",
+				"queries": [
+					{
+						"query": "SELECT mean(\"calf_circumference\") AS \"mean_calf_circumference\", mean(\"high_waistline\") AS \"mean_high_waistline\", mean(\"hipline\") AS \"mean_hipline\", mean(\"low_thigh_circumference\") AS \"mean_low_thigh_circumference\", mean(\"low_waistline\") AS \"mean_low_waistline\", mean(\"thigh_circumference\") AS \"mean_thigh_circumference\", mean(\"waistline\") AS \"mean_waistline\" FROM \"telegraf\".\"autogen\".\"body\" WHERE time > :dashboardTime: AND \"name\"='\"booboowei\"' GROUP BY time(:interval:) FILL(null)",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "body",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_calf_circumference",
+									"args": [
+										{
+											"value": "calf_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_high_waistline",
+									"args": [
+										{
+											"value": "high_waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_hipline",
+									"args": [
+										{
+											"value": "hipline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_low_thigh_circumference",
+									"args": [
+										{
+											"value": "low_thigh_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_low_waistline",
+									"args": [
+										{
+											"value": "low_waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_thigh_circumference",
+									"args": [
+										{
+											"value": "thigh_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_waistline",
+									"args": [
+										{
+											"value": "waistline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"\"booboowei\""
+								]
+							},
+							"groupBy": {
+								"time": "auto",
+								"tags": []
+							},
+							"areTagsAccepted": true,
+							"fill": "null",
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "e8e98a90-7db8-44d1-ba36-0d8baa657b23",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "4a2065ab-4169-4e02-b1d2-e8710627c026",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "9458abc5-f84a-4e00-bc95-f46970c36533",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/4/cells/7f77ec30-31d2-4b60-b9a8-6eda044792d5"
+				}
+			}
+		],
+		"templates": [],
+		"name": "健康",
+		"organization": "default",
+		"links": {
+			"self": "/chronograf/v1/dashboards/4",
+			"cells": "/chronograf/v1/dashboards/4/cells",
+			"templates": "/chronograf/v1/dashboards/4/templates"
+		}
+	}
+}
