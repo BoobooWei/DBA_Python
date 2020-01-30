@@ -19,16 +19,16 @@ user = {
 'bio': 'A girl who loves movies and music.',
 }
 movies = [
-{'name': 'My Neighbor Totoro', 'year': '1988'},
-{'name': 'Three Colours trilogy', 'year': '1993'},
-{'name': 'Forrest Gump', 'year': '1994'},
-{'name': 'Perfect Blue', 'year': '1997'},
+{'name': 'Green Book', 'year': '2018'},
+{'name': 'The Wind Rises', 'year': '2013'},
+{'name': '3 Idiots', 'year': '2009'},
+{'name': 'Spirited Away', 'year': '2001'},
 {'name': 'The Matrix', 'year': '1999'},
-{'name': 'Memento', 'year': '2000'},
-{'name': 'The Bucket list', 'year': '2007'},
-{'name': 'Black Swan', 'year': '2010'},
-{'name': 'Gone Girl', 'year': '2014'},
-{'name': 'CoCo', 'year': '2017'},
+{'name': 'The Rock', 'year': '1995'},
+{'name': 'A Chinese Odyssey', 'year': '1994'},
+{'name': 'The Shawshank Redemption', 'year': '1994'},
+{'name': 'Léon', 'year': '1994'},
+{'name': "One Flew Over the Cuckoo's Nest", 'year': '1975'},
 ]
 
 class Happy(BaseView):

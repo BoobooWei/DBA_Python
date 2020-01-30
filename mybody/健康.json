@@ -755,7 +755,7 @@
 				"name": "体围",
 				"queries": [
 					{
-						"query": "SELECT mean(\"calf_circumference\") AS \"mean_calf_circumference\", mean(\"high_waistline\") AS \"mean_high_waistline\", mean(\"hipline\") AS \"mean_hipline\", mean(\"low_thigh_circumference\") AS \"mean_low_thigh_circumference\", mean(\"low_waistline\") AS \"mean_low_waistline\", mean(\"thigh_circumference\") AS \"mean_thigh_circumference\", mean(\"waistline\") AS \"mean_waistline\" FROM \"telegraf\".\"autogen\".\"body\" WHERE time > :dashboardTime: AND \"name\"='\"booboowei\"' GROUP BY time(:interval:) FILL(null)",
+						"query": "SELECT \nmean(\"high_waistline\") as \"上腰围\", \nmean(\"waistline\") as \"腰围\",\nmean(\"low_waistline\") as \"下腰围\", \nmean(\"hipline\") as \"臀围\",   \nmean(\"thigh_circumference\") as \"大腿根围\",\nmean(\"low_thigh_circumference\") as \"大腿细围\",\nmean(\"calf_circumference\") as \"小腿围\" \nFROM \"telegraf\".\"autogen\".\"body\" \nWHERE time > :dashboardTime: AND \"name\"='\"booboowei\"' GROUP BY time(:interval:) FILL(null)",
 						"queryConfig": {
 							"database": "telegraf",
 							"measurement": "body",
@@ -764,19 +764,7 @@
 								{
 									"value": "mean",
 									"type": "func",
-									"alias": "mean_calf_circumference",
-									"args": [
-										{
-											"value": "calf_circumference",
-											"type": "field",
-											"alias": ""
-										}
-									]
-								},
-								{
-									"value": "mean",
-									"type": "func",
-									"alias": "mean_high_waistline",
+									"alias": "上腰围",
 									"args": [
 										{
 											"value": "high_waistline",
@@ -788,10 +776,10 @@
 								{
 									"value": "mean",
 									"type": "func",
-									"alias": "mean_hipline",
+									"alias": "腰围",
 									"args": [
 										{
-											"value": "hipline",
+											"value": "waistline",
 											"type": "field",
 											"alias": ""
 										}
@@ -800,19 +788,7 @@
 								{
 									"value": "mean",
 									"type": "func",
-									"alias": "mean_low_thigh_circumference",
-									"args": [
-										{
-											"value": "low_thigh_circumference",
-											"type": "field",
-											"alias": ""
-										}
-									]
-								},
-								{
-									"value": "mean",
-									"type": "func",
-									"alias": "mean_low_waistline",
+									"alias": "下腰围",
 									"args": [
 										{
 											"value": "low_waistline",
@@ -824,7 +800,19 @@
 								{
 									"value": "mean",
 									"type": "func",
-									"alias": "mean_thigh_circumference",
+									"alias": "臀围",
+									"args": [
+										{
+											"value": "hipline",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "大腿根围",
 									"args": [
 										{
 											"value": "thigh_circumference",
@@ -836,10 +824,22 @@
 								{
 									"value": "mean",
 									"type": "func",
-									"alias": "mean_waistline",
+									"alias": "大腿细围",
 									"args": [
 										{
-											"value": "waistline",
+											"value": "low_thigh_circumference",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								},
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "小腿围",
+									"args": [
+										{
+											"value": "calf_circumference",
 											"type": "field",
 											"alias": ""
 										}
