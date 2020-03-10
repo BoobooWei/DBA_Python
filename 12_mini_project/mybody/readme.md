@@ -1,6 +1,16 @@
 # Readme
 
-搭建身体健康值记录的web系统
+## 简介
+
+身体健康值记录的web系统源代码
+
+## 前提和依赖
+
+* python3.7
+
+* influxdb1.7
+
+* telegraf 1.12
 
 1. 安装tick
 
