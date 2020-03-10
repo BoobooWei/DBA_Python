@@ -1,0 +1,42 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s\nFile %(filename)s, [%(levelname)s] [lines: %(lineno)s] %(message)s"
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: INFO
+        formatter: simple
+        stream: ext://sys.stdout # 作为标准输出显示在控制台
+
+    debug_file_handler:
+    # 输出到正常日志文件
+        class: logging.handlers.RotatingFileHandler # 写入磁盘
+        level: DEBUG # 日志的等级
+        formatter: simple # 格式
+        filename: ./logs/info.log # 文件的位置
+        maxBytes: 10485760 # 10MB 设置日志文件的大小
+        backupCount: 20 # 文件最大的个数
+        encoding: utf8 # 写入的文件编码
+
+    warning_file_handler:
+    # 输出到错误日志文件
+        class: logging.handlers.RotatingFileHandler
+        level: WARNING
+        formatter: simple
+        filename: ./logs/warning.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+
+loggers:
+  simpleExample:
+    level: WARNING
+    handlers: [warning_file_handler]
+    propagate: no
+
+root:
+    level: DEBUG
+    handlers: [console, debug_file_handler, warning_file_handler]
