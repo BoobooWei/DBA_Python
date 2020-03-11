@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01_python_net/01_Python网络开发之客户端服务器架构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/02_Python网络开发之OSI七层模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/03_Python网络开发之详解socket层.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/04_Python网络开发之基于TCP的套接字.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/05_Python网络开发之基于UDP的套接字.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/06_Python网络开发之粘包现象.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/07_Python网络开发之认证客户端的链接合法性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/08_Python网络开发之socketserver实现并发.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_python_net/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/01_Python并发编程之背景知识.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/02_Python并发编程之多进程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/03_Python并发编程之多线程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/04_Python并发编程之协程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_python_threads/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_flask_admin/11-修改Flask_admin前端页面表格一行显示文字不换行.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/python_project/fms/tools.py" beforeDir="false" afterPath="$USER_HOME$/python_project/fms/tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +13,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="570">
+                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_flask_admin/01_搭建工作记录管理系统的准备工作.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="324">
+                <caret line="84" selection-start-line="84" selection-end-line="84" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_flask_admin/08_展示数据库指定的列.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="157">
+                <caret line="259" selection-start-line="259" selection-end-line="260" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +133,8 @@
         <option value="$PROJECT_DIR$/02_python_threads/05_Python并发编程之IO模型.md" />
         <option value="$PROJECT_DIR$/02_python_threads/06_Python并发编程之paramiko模块.md" />
         <option value="$PROJECT_DIR$/01_python_net/readme.md" />
+        <option value="$PROJECT_DIR$/11_flask_admin/11-修改Flask_admin前端页面表格一行显示文字不换行.md" />
+        <option value="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" />
       </list>
     </option>
   </component>
@@ -131,6 +155,11 @@
               <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="11_flask_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11_flask_admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,14 +180,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python_base/public_api/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11_flask_admin" />
       <recent name="$PROJECT_DIR$/python_base/public_api" />
       <recent name="$PROJECT_DIR$/python_base/exec" />
       <recent name="$USER_HOME$/python_project/shirne/work_list" />
       <recent name="$PROJECT_DIR$/python_base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python_base/public_api/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,16 +473,18 @@
       <workItem from="1568506090358" duration="6523000" />
       <workItem from="1568683982012" duration="2229000" />
       <workItem from="1568691554737" duration="6918000" />
+      <workItem from="1583907551997" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31615000" />
+    <option name="totallyTimeSpent" value="33084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15140416" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -464,7 +496,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.35612243" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -542,60 +574,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_python_base/08_Python装饰器.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="661">
-            <caret line="619" column="13" selection-start-line="619" selection-start-column="3" selection-end-line="619" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/exec/04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="57" column="23" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DataProduct/zy_cms_rules/set_aliyun_cms_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#45#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python_project/shirne/app/calculate_confirm_cost_20190912.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="447" column="8" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="83" />
-          <folding>
-            <element signature="e#101#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python_project/fms/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="44" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/log_conf.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_python_base/public_api/influx_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -799,9 +777,7 @@
     <entry file="file://$PROJECT_DIR$/00_python_base/exec/mysql_test/my.cnf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_base/exec/mysql_test/804183e8-d91c-11e9-89c9-acde48001122">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python_base/exec/mysql_test/804183e8-d91c-11e9-89c9-acde48001122" />
     <entry file="file://$PROJECT_DIR$/00_python_base/exec/10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -824,14 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_python_net/01_客户端/服务器架构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/01_python_net/01_客户端/服务器架构.md" />
     <entry file="file://$PROJECT_DIR$/01_python_net/02_Python网络开发之OSI七层模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -969,6 +938,67 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret column="2" selection-start-column="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/10-使用模板.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/06_展示数据库表单.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-846">
+            <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/11-修改Flask_admin前端页面表格一行显示文字不换行.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <folding>
+              <element signature="n#style#0;n#table#1;n#!!top" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/01_搭建工作记录管理系统的准备工作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="84" selection-start-line="84" selection-end-line="84" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/08_展示数据库指定的列.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="157">
+            <caret line="259" selection-start-line="259" selection-end-line="260" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="570">
+            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           </first_editor>
           <second_editor />
         </state>
