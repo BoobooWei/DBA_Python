@@ -63,3 +63,39 @@ class DatabaseSQLServerConnDriver:
         finally:
             print('update cursor closed')
             cursor.close()
+
+
+"""
+# 3rd-part Modules
+import urllib3
+from influxdb import InfluxDBClient
+import pymssql
+
+
+# pymssql.org/en/stable/intro.html#getting-started
+
+
+class MssqlHelper():
+    def __init__(self, **kwargs):
+        try:
+            conn = pymssql.connect(kwargs["server"], kwargs["user"], kwargs["password"], "master")
+        except Exception as e:
+            print(str(e))
+            exit()
+        self.cursor = conn.cursor()
+
+    def query(self, sql):
+        try:
+            self.cursor.execute(sql)
+            response = self.cursor.fetchone()
+        except Exception as e:
+            print(str(e))
+            response = []
+        return response
+
+    def close(self):
+        self.conn.close()
+
+
+urllib3.disable_warnings()
+"""

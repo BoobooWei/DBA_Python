@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_flask_admin/13-修改Flask_admin前端表格通过js计算生成合计行.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_python_base/常用python小方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/常用python小方法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" beforeDir="false" afterPath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="708">
+              <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -456,12 +452,12 @@
       <workItem from="1568683982012" duration="2229000" />
       <workItem from="1568691554737" duration="6918000" />
       <workItem from="1583907551997" duration="2657000" />
-      <workItem from="1585018569787" duration="270000" />
+      <workItem from="1585018569787" duration="701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34542000" />
+    <option name="totallyTimeSpent" value="34973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -973,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="708">
+          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
         </state>
       </provider>
     </entry>
