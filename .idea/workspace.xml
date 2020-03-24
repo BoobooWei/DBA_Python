@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11_flask_admin/11-修改Flask_admin前端页面表格一行显示文字不换行.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_flask_admin/13-修改Flask_admin前端表格通过js计算生成合计行.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_python_base/常用python小方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/常用python小方法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" beforeDir="false" afterPath="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,39 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="570">
-                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11_flask_admin/01_搭建工作记录管理系统的准备工作.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="84" selection-start-line="84" selection-end-line="84" selection-end-column="63" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11_flask_admin/08_展示数据库指定的列.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="157">
-                <caret line="259" selection-start-line="259" selection-end-line="260" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -135,6 +110,7 @@
         <option value="$PROJECT_DIR$/01_python_net/readme.md" />
         <option value="$PROJECT_DIR$/11_flask_admin/11-修改Flask_admin前端页面表格一行显示文字不换行.md" />
         <option value="$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md" />
+        <option value="$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py" />
       </list>
     </option>
   </component>
@@ -148,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,13 +135,18 @@
             <path>
               <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="11_flask_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="00_python_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBA_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBA_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="00_python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="public_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,18 +455,19 @@
       <workItem from="1568506090358" duration="6523000" />
       <workItem from="1568683982012" duration="2229000" />
       <workItem from="1568691554737" duration="6918000" />
-      <workItem from="1583907551997" duration="1469000" />
+      <workItem from="1583907551997" duration="2657000" />
+      <workItem from="1585018569787" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33084000" />
+    <option name="totallyTimeSpent" value="34542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15140416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -496,7 +479,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22040816" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19897959" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.35612243" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -574,30 +557,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/influx_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/xlsxwriter_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_python_base/public_api/logging_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -674,23 +633,6 @@
             <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/mysql_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#154#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/openpyxl_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -994,13 +936,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11_flask_admin/13-修改Flask_admin前端表格通过js计算生成合计行.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11_flask_admin/12-修改Flask_admin前端页面添加表格名称.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="570">
-            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/oracle_helper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/openpyxl_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/mysql_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_python_base/public_api/sqlserver_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>

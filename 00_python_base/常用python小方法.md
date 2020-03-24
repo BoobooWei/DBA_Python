@@ -2,6 +2,16 @@
 
 [TOC]
 
+## 日期时间
+
+```python
+UTC+8
+当前时间
+time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+```
+
+
+
 ## 去除网页标签
 
 ```python
