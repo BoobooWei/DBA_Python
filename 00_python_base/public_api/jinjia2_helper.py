@@ -8,6 +8,7 @@ Description:
 Help:
 """
 # Build-in Modules
+import os
 import codecs
 
 # 3rd-part Modules
@@ -36,7 +37,7 @@ class GetMarkdown:
             return template.render(**render_data)
 
     def maker(self, template_dir, output_file_dir):
-        with codecs.open(output_file_dir + '/' + '{0}.md'.format(self.check_script), 'w', 'utf-8') as f:
+        with codecs.open(os.path.join(output_file_dir,'{0}.md'.format(self.check_script)), 'w', 'utf-8') as f:
             f.write(self.render_template(template_dir))
 
 
