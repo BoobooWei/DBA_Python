@@ -23,7 +23,7 @@ class GetMarkdown:
         self.seq = kwargs['seq']
 
     def render_template(self, TEMPLATE_DIR):
-        with codecs.open(TEMPLATE_DIR + '/' + 'template_markdown.md', 'r', 'utf-8') as f:
+        with codecs.open(os.path.join(TEMPLATE_DIR,'template_markdown.md'), 'r', 'utf-8') as f:
             template_data = f.read()
             template = Template(template_data)
 
