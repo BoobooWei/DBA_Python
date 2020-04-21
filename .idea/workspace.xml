@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5827cd6-5017-4383-af84-257df7fa5b4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/00_python_base/public_api/human.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_python_base/public_api/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_python_base/public_api/time_tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +67,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/00_python_base/public_api" />
+      <recent name="$PROJECT_DIR$/python_base/public_api/templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/11_flask_admin" />
       <recent name="$PROJECT_DIR$/python_base/public_api" />
       <recent name="$PROJECT_DIR$/python_base/exec" />
       <recent name="$USER_HOME$/python_project/shirne/work_list" />
       <recent name="$PROJECT_DIR$/python_base" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python_base/public_api/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tools">
@@ -361,11 +360,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="549" y="146" key="#tools" timestamp="1587461426809">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="549" y="146" key="#tools/0.0.1680.1050@0.0.1680.1050" timestamp="1587461426809" />
+    <state x="485" y="127" key="CommitChangelistDialog2" timestamp="1587463007187">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="485" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587463007187" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1587463235175">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.23.1680.958@0.23.1680.958" timestamp="1587463235175" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
