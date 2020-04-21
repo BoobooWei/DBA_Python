@@ -8,7 +8,9 @@ Description:
 Help:
 """
 # Build-in Modules
+import os
 import codecs
+import pathlib
 
 # 3rd-part Modules
 from jinja2 import Template
@@ -16,41 +18,67 @@ from jinja2 import Template
 
 class GetMarkdown:
     def __init__(self, **kwargs):
-        self.provider = kwargs['provider']
-        self.check_script = kwargs['check_script']
-        self.check_name = kwargs['check_name']
-        self.seq = kwargs['seq']
+        self.render_data = kwargs
 
-    def render_template(self, TEMPLATE_DIR):
-        with codecs.open(TEMPLATE_DIR + '/' + 'template_markdown.md', 'r', 'utf-8') as f:
-            template_data = f.read()
-            template = Template(template_data)
+    def render_template(self):
+        template_data = """
+# 客户名
 
-            render_data = {
-                'check_name': self.check_name,
-                'check_script': self.check_script,
-                'provider': self.provider,
-                'seq': self.seq,
-            }
+{{ customer }}
 
-            return template.render(**render_data)
+# 检测报告
 
-    def maker(self, template_dir, output_file_dir):
-        with codecs.open(output_file_dir + '/' + '{0}.md'.format(self.check_script), 'w', 'utf-8') as f:
-            f.write(self.render_template(template_dir))
+* 名称：{{ check_name }}
+* 时间：{{ check_time }}
+
+# 报告明细
+
+{% for item in sql_data -%}
+    {{ item }}
+{%- endfor %}  
+
+{% for item in sql_data -%}
+    {{ item }}
+{% endfor %} 
+
+
+{% for item in sql_data %}
+    {{ item }}
+{%- endfor %} 
+
+
+{% for item in sql_data %}
+    {{ item }}
+{% endfor %}     
+"""
+        template = Template(template_data)
+        return template.render(**self.render_data)
+
+    def maker(self, output_dir):
+        with codecs.open(os.path.join(output_dir, '{0}.md'.format(self.render_data['customer'])), 'w',
+                         'utf-8') as f:
+            f.write(self.render_template())
 
 
 if __name__ == '__main__':
     print("output markdown file")
 
     params_list = [{
-        "check_name": 'cc',
-        "check_script": 'aa',
-        "provider": 'aliyun',
-        "seq": ['a', 'b', 'c'],
-    }]
+        "customer": '老板电器',
+        "check_name": '库表统计',
+        "check_time": '2020-04-05 11:00:09',
+        "sql_data": ['a', 'b', 'c'],
+    }, {
+        "customer": 'AIA',
+        "check_name": '库表统计',
+        "check_time": '2020-04-05 11:00:09',
+        "sql_data": ['e', 'f', 'g'],
+    }
+    ]
+
     for params in params_list:
         api = GetMarkdown(**params)
-        template_dir = "./templates"
-        output_file_dir = "./README"
-        api.maker(template_dir, output_file_dir)
+        output_dir = "./README/"
+        if not pathlib.Path(output_dir).exists():
+            os.mkdir(output_dir)
+        api.maker(output_dir)
