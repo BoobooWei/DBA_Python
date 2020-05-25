@@ -16,15 +16,15 @@ class DatabaseSQLServerConnDriver:
             })
         except Exception as e:
             print(e)
-            print('平台专用账号已失效, 请检查权限或密码!')
+            print('账号无效, 请检查权限或密码!')
 
         # print(self.connection)
 
     def query(self, sql):
         """数据查询操作"""
 
-        # 使用cursor()方法获取操作游标
-        cursor = self.connection.cursor()
+        # 使用cursor()方法获取操作游标，返回字典
+        cursor = self.conn.cursor(as_dict=True)
 
         # SQL 查询语句
         try:
